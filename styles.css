@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+body {
+  margin: 15px;
+}
+a {
+  text-decoration: none;
+}
+.home {
+  font-family: 'Gloria Hallelujah', cursive;
+  position: relative;
+  left: 76px;
+  font-weight: normal;
+  top: -5px;
+  color: black;
+  display: unset;
+}
+
+.logo {
+  width: 43;
+  position: relative;
+  bottom: -3px;
+  left: -50px;
+  display: unset;
+}
+
+.welcome {
+  display: block;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: normal;
+  position: absolute;
+  left: 490px;
+  top: 240px;
+}
+
+.home:hover {
+  color: orange;
+}
+
+.welcome {
+  animation-duration: 3s;
+    animation-name: welcomeanimacion;
+
+}
+
+@keyframes welcomeanimacion {
+  from {
+   color: yellow;
+   opacity: 4;
+  }
+
+  to {
+color: black;
+  }
+}
